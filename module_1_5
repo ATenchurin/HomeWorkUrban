@@ -1,0 +1,12 @@
+immutable_var = 1, 2, "Green", False, 1.25
+print(immutable_var)
+#immutable_var [2] = "Yellow" - кортеж неизменяем
+immutable_var = [1,2], "Green", False, 1.25
+print(immutable_var)
+immutable_var [0][1] = "Factor"
+print(immutable_var)
+
+mutable_list = [1, 2, "Green", False, 1.25]
+print(mutable_list)
+mutable_list [0] = "Omoda"
+print(mutable_list)
